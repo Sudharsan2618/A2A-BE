@@ -1,0 +1,1 @@
+"""LuxeLife API — Root package."""

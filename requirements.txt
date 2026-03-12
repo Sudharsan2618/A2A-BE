@@ -1,0 +1,48 @@
+# ── Core ──
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+gunicorn==23.0.0
+pydantic[email]==2.10.5
+pydantic-settings==2.7.1
+
+# ── Database ──
+sqlalchemy[asyncio]==2.0.37
+asyncpg==0.30.0
+alembic==1.14.1
+
+# ── Cache ──
+redis[hiredis]==5.2.1
+
+# ── Auth ──
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+
+# ── Payments ──
+razorpay==1.4.2
+
+# ── Cloud Storage ──
+google-cloud-storage==2.19.0
+
+# ── Firebase ──
+firebase-admin==6.6.0
+
+# ── SMS ──
+twilio==9.4.3
+
+# ── HTTP ──
+httpx==0.28.1
+
+# ── Logging ──
+structlog==24.4.0
+
+# ── Security ──
+slowapi==0.1.9
+
+# ── Monitoring ──
+sentry-sdk[fastapi]==2.19.2
+
+# ── Utilities ──
+python-multipart==0.0.20
+cuid2==2.0.1
+python-dateutil==2.9.0
